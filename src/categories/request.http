@@ -1,0 +1,23 @@
+### create new category
+POST http://localhost:3000/categories
+Content-Type: application/json
+
+{
+  "name":"pantalones"
+}
+
+### get category by id
+GET http://localhost:3000/categories/gg
+
+### get all categories
+GET http://localhost:3000/categories
+
+### update one category by id
+PATCH http://localhost:3000/categories/1
+Content-Type: application/json
+
+{
+  "name":"lentes"
+}
+### DELETE one category by id
+DELETE http://localhost:3000/categories/2
